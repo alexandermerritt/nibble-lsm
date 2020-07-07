@@ -4,7 +4,7 @@
 
 ## Description
 
-**Update 2020-07-06** This repository can be considered the official repository, given I (Alexander Merritt) was the main author.
+**Update 2020-07-06** This repository can be considered the official repository.
 
 **Nibble** is a scalable, memory-capacity efficient key-value store for very large scale machines (e.g., tens of terabytes or more memory and hundreds of CPU cores). Nibble promotes the use of a concurrent multi-head log-structured memory to attain high performance and resistance to memory fragmentation, together with scalable low-latency synchronization and optimistically concurrent indexing that allow application threads to scale to hundreds of cores. A prototype for single node system has been implemented, and its effectiveness has been evaluated on a HPE SuperDomeX machine with 240 cores and 12 TiB of DRAM across a wide range of workload patterns. 
 
